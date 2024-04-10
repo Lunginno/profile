@@ -1,0 +1,21 @@
+body
+{
+    background-color:#FEC8D8;
+}
+h1{
+    color: #957DAD;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Silkscreen Expanded', sans-serif;
+}
+h2
+{
+    color: #D291BC;
+}
+.h2
+{
+    color: #D291BC;
+    font-size: xx-large;
+    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Silkscreen Expanded', sans-serif;
+}
