@@ -1,0 +1,78 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #451e45; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .navbar , .content , .h2{
+      width: 70%;
+      font-size: 18px;
+    }
+    .pic {width: 25%;}
+  }
+
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+.navbar { 
+    /* display: flex;  */
+    background-color: black; 
+    height: 120px; 
+    z-index: 1; /* Stay on top */
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+} 
+ 
+
+.content
+{
+    background-color: #FEC8D8;
+    text-align: center;
+    padding: 100px;
+    
+}
+.pic
+{
+    padding: 50px;
+    border-radius: 50px;
+}
+.h2
+{
+    color: #D291BC;
+    font-size: xx-large;
+    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Silkscreen Expanded', sans-serif;
+}
+.navbar img
+{
+  float: right;
+}
+div.navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+    
+   
